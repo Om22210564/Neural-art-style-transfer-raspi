@@ -50,7 +50,7 @@ to **overheat and throttle performance** during prolonged usage.
 ## 🖼️ Application Results
 
 ### 🏠 Home Screen UI
-<img src="images/UI_HomeScreen.jpg" width="350"/>
+<img src="images/UI_HomeScreen.jpeg" width="350"/>
 
 ---
 
