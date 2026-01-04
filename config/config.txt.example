@@ -1,0 +1,20 @@
+# Raspberry Pi Configuration for
+# Waveshare 7" DSI LCD (C) + IMX219 Camera
+
+camera_auto_detect=0
+display_auto_detect=1
+
+dtoverlay=vc4-kms-v3d
+max_framebuffers=2
+disable_fw_kms_setup=1
+
+arm_64bit=1
+disable_overscan=1
+arm_boost=1
+
+[all]
+# Waveshare DSI Display (DSI1)
+dtoverlay=vc4-kms-dsi-waveshare-panel,7_0_inchC,i2c1
+
+# IMX219 Camera
+dtoverlay=imx219
