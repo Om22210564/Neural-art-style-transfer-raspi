@@ -33,8 +33,8 @@ Neural style transfer inference is CPU-intensive and can cause the Raspberry Pi 
 to **overheat and throttle performance** during prolonged usage.
 
 ### 📷 Hardware Assembly
-![Hardware Setup](docs/hardware_setup.jpeg)
 
+<img src="docs/hardware_setup.jpeg" width="400"/>
 ---
 
 ## 🧰 Software Stack
@@ -47,6 +47,30 @@ to **overheat and throttle performance** during prolonged usage.
 - rpicam-apps (camera capture using libcamera)
 
 ---
+## 🖼️ Application Results
+
+### 🏠 Home Screen UI
+<img src="images/UI_HomeScreen.jpg" width="350"/>
+
+---
+
+### 📸 Raw Captured Image
+<img src="images/test.jpg" width="350"/>
+
+---
+
+### 🎨 Mosaic Style Output
+<img src="images/test_mosaic_style.jpg" width="350"/>
+
+---
+
+### 🎨 Pop Art Style Output
+<img src="images/test_pop_art_style.jpg" width="350"/>
+
+---
+
+### 🎨 Rain Princess Style Output
+<img src="images/test_rain_princess_style.jpg" width="350"/>
 
 ## ⚙️ Raspberry Pi Configuration
 
